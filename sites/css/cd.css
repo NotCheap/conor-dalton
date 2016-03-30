@@ -1,0 +1,81 @@
+body {
+  background-color: #ddd;
+  color: #444;
+  font-family: 'Exo',sans-serif;
+  font-size: 21px;
+  line-height: 23px;
+  text-align: center;
+  padding-top: 60px;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+}
+
+p {
+  max-width: 630px;
+  margin: 25px auto;
+}
+
+ul {
+  list-style: none;
+  height: 32px;
+  width: 280px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+li:first-child {
+  margin-left: 0;
+}
+
+li {
+  margin-left: 30px;
+  float: left;
+}
+
+img {
+  height: 32px;
+}
+
+a {
+  color: #364d6a;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.small {
+  font-size: 18px;
+  max-width: 370px;
+}
+
+.intro {
+  margin-bottom: 25px;
+}
+
+.social {
+  margin-top: 250px;
+}
+
+.instagram:hover {
+  fill: #3f729b;
+}
+
+.behance:hover {
+  fill: #1769ff;
+}
+
+.github:hover {
+  fill: #4183c4;
+}
+
+.linkedin:hover {
+  fill: #0077b5;
+}
+
+.soundcloud:hover {
+  fill: #f80;
+}
