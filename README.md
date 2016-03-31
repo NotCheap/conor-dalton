@@ -1,6 +1,7 @@
 # conor-dalton
-###
-###To Do:
+###Personal Portfolio Site
+##http://conordalton.nyc
+##To Do:
 - Google Analytics
 - Social Profile URLs
 - Add Google+
