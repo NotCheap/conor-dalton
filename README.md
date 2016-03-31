@@ -7,3 +7,4 @@
 - Add Google+
 - Meta Data Fixes
 - Email Protection Script
+- Add Eric's reset.css
