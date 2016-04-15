@@ -286,12 +286,12 @@ footer .credits p{
     right: 4px;
 }
 .foot-social li a > img:hover {
-    opacity: .8;
-  -webkit-transition: all .8s linear;
-     -moz-transition: all .8s linear;
-    -ms-transition: all .8s linear;
-     -o-transition: all .8s linear;
-      transition: all .8s linear;
+    opacity: .5;
+  -webkit-transition: all .2s linear;
+     -moz-transition: all .2s linear;
+    -ms-transition: all .2s linear;
+     -o-transition: all .2s linear;
+      transition: all .2s linear;
 }
 
 /* 4. Navigation */
