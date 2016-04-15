@@ -264,7 +264,7 @@ footer .credits p{
 }
 .foot-social li a > img {
     height: 15px;
-    opacity: 0.3;
+    opacity: 1;
     margin-bottom: 20px;
   -webkit-transition: all .8s linear;
      -moz-transition: all .8s linear;
@@ -279,10 +279,14 @@ footer .credits p{
     margin-right: 13px;
 }
 .foot-social li a > img.social-linkedin {
-    margin-right: 12px;
+    margin-right: 13px;
+}
+.foot-social li a > img.social-linkedin {
+    position: relative;
+    right: 4px;
 }
 .foot-social li a > img:hover {
-    opacity: 1;
+    opacity: .8;
   -webkit-transition: all .8s linear;
      -moz-transition: all .8s linear;
     -ms-transition: all .8s linear;
