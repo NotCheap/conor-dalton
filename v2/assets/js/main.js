@@ -33,12 +33,12 @@
         });
 
         //BASIC UX
-        $('.menu-trigger').on('mouseenter',function(){
+        /* $('.menu-trigger').on('mouseenter',function(){
             $('nav.mastnav').slideDown();
         })
         $('nav.mastnav').on('mouseleave',function(){
             $(this).slideUp();
-        })
+        }) */
         $('.news-block').on('mouseenter',function(){
             $('.news-block').addClass('hovered');
             $(this).removeClass('hovered');
@@ -46,9 +46,49 @@
         $('.news-block').on('mouseleave',function(){
             $('.news-block').removeClass('hovered');
         })
-        $('.mastwrap').on('click',function(){
-            $('nav.mastnav').slideUp();
+        $('.menu-item-62').on('mouseenter',function(){
+            $('.mastnav').addClass('facebook');
+            $('.ion-social-facebook').addClass('icon-active');
         })
+        $('.menu-item-62').on('mouseleave',function(){
+            $('.mastnav').removeClass('facebook');
+            $('.ion-social-facebook').removeClass('icon-active');
+        })
+        $('.menu-item-68').on('mouseenter',function(){
+            $('.mastnav').addClass('googleplus');
+            $('.ion-social-googleplus').addClass('icon-active');
+        })
+        $('.menu-item-68').on('mouseleave',function(){
+            $('.mastnav').removeClass('googleplus');
+            $('.ion-social-googleplus').removeClass('icon-active');
+        })
+        $('.menu-item-66').on('mouseenter',function(){
+            $('.mastnav').addClass('twitter');
+            $('.ion-social-twitter').addClass('icon-active');
+        })
+        $('.menu-item-66').on('mouseleave',function(){
+            $('.mastnav').removeClass('twitter');
+            $('.ion-social-twitter').removeClass('icon-active');
+        })
+        $('.menu-item-67').on('mouseenter',function(){
+            $('.mastnav').addClass('pinterest');
+            $('.ion-social-pinterest').addClass('icon-active');
+        })
+        $('.menu-item-67').on('mouseleave',function(){
+            $('.mastnav').removeClass('pinterest');
+            $('.ion-social-pinterest').removeClass('icon-active');
+        })
+        $('.menu-item-65').on('mouseenter',function(){
+            $('.mastnav').addClass('linkedin');
+            $('.ion-social-linkedin').addClass('icon-active');
+        })
+        $('.menu-item-65').on('mouseleave',function(){
+            $('.mastnav').removeClass('linkedin');
+            $('.ion-social-linkedin').removeClass('icon-active');
+        })
+        /* $('.mastwrap').on('click',function(){
+            $('nav.mastnav').slideUp();
+        }) */
 
 
         //ISOTOPE

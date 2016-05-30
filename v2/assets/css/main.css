@@ -272,6 +272,9 @@ footer .credits p{
      -o-transition: all .8s linear;
       transition: all .8s linear;
 }
+.foot-social li a > img.social-behance {
+    margin-right: 11px;
+}
 .foot-social li a > img.social-instagram {
     margin-right: 15.5px;
 }
@@ -281,17 +284,17 @@ footer .credits p{
 .foot-social li a > img.social-linkedin {
     margin-right: 13px;
 }
-.foot-social li a > img.social-linkedin {
+.foot-social li a > img.social-soundcloud {
     position: relative;
     right: 4px;
 }
 .foot-social li a > img:hover {
-    opacity: .8;
-  -webkit-transition: all .8s linear;
-     -moz-transition: all .8s linear;
-    -ms-transition: all .8s linear;
-     -o-transition: all .8s linear;
-      transition: all .8s linear;
+    opacity: .5;
+  -webkit-transition: all .2s linear;
+     -moz-transition: all .2s linear;
+    -ms-transition: all .2s linear;
+     -o-transition: all .2s linear;
+      transition: all .2s linear;
 }
 
 /* 4. Navigation */
