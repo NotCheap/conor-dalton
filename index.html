@@ -13,7 +13,7 @@
   <link rel='stylesheet' id='main-css'  href='v2/assets/css/main.css' type='text/css' media='all' />
   <link rel='stylesheet' id='main-bg-css'  href='v2/assets/css/main-bg.css' type='text/css' media='all' />
   <link rel='stylesheet' id='main-responsive-css'  href='v2/assets/css/main-responsive.css' type='text/css' media='all' />
-  <link rel='stylesheet' id='ionicons-css'  href='v2/assets/css/ionicons.min.css' type='text/css' media='all' />
+  <link rel='stylesheet' id='ionicons-css'  href='http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css' type='text/css' media='all' />
   <link rel='stylesheet' id='googlefont-css'  href='http://fonts.googleapis.com/css?family=Raleway%3A400%2C300%2C600%7CMontserrat%3A400%2C700%7COpen+Sans%3A400%2C300%2C700%2C800&#038;ver=4.4.2' type='text/css' media='all' />
   <script type='text/javascript' src='v2/assets/css/js/jquery.js'></script>
   <script type='text/javascript' src='v2/assets/js/jquery-migrate.min.js'></script>
@@ -31,42 +31,56 @@
   </div>
 
   <header class="masthead fullheight text-center white-bg">
-    <div class="menu-trigger-wrap"><a class="menu-trigger font3" href="#">Conor Dalton <!--<span class="ion-navicon black"></span>--> </a></div>
-    <img data-no-retina alt="Alive" title="Alive" class="main-logo" src="v2/assets/images/logo.png"/>
+    <!-- <div class="menu-trigger-wrap"><a class="menu-trigger font3" href="#">SHARE</a></div> -->
   </header>
 
-  <!-- <nav class="mastnav fullwidth text-left white-bg">
-    <img data-no-retina alt="Alive" title="Alive" class="nav-logo" src="assets/images/logo.png"/>
+  <style>
+    h2 {font-size: 26px;}
+    .liner {height: 10px;}
+    .nav-link {font-size: 18px;}
+    nav {background: #ffffff;}
+    nav.mastnav.hover-color.facebook {background: #3b5998;}
+    nav.mastnav.hover-color.googleplus {background: #dc4e41;}
+    nav.mastnav.hover-color.twitter {background: #55acee;}
+    nav.mastnav.hover-color.pinterest {background: #bd081c;}
+    nav.mastnav.hover-color.linkedin {background: #0077b5;}
+    ul#menu-menu-1 {position: relative; left: calc(50vw - 340px);}
+    li.menu-item a span.ion-social-facebook::before {margin-left: 32px;}
+    li.menu-item a span.ion-social-googleplus::before {margin-left: 25px;}
+    li.menu-item a span.ion-social-twitter::before {margin-left: 21px;}
+    li.menu-item a span.ion-social-pinterest::before {margin-left: 28px;}
+    li.menu-item a span.ion-social-linkedin::before {margin-left: 26px;}
+    .share-label {font-size: 13px;}
+    .share-label:hover {color: #fff !important;}
+    .ion-social-facebook, .share-label.facebook {color: #3b5998;}
+    .ion-social-googleplus, .share-label.googleplus {color: #dc4e41;}
+    .ion-social-twitter, .share-label.twitter {color: #55acee;}
+    .ion-social-pinterest, .share-label.pinterest {color: #bd081c;}
+    .ion-social-linkedin, .share-label.linkedin {color: #0077b5;}
+    .icon-active::before {color: #ffffff !important;}
+  </style>
+
+
+
+
+  <!--  UNDER CONSTRUCTION
+  <nav class="mastnav fullwidth text-left hover-color" style="display: block !important;">
     <nav id="main_nav">
       <ul id="menu-menu-1" class="">
         <li id="menu-item-62" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-5 current_page_item menu-item-62 active ">
-          <a href="#">Home</a>
+          <a href="#"><span class="ion ion-social-facebook"><p class="share-label facebook">Facebook</p></span></a>
         </li>
         <li id="menu-item-68" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-68 ">
-          <a href="#">Works</a>
+          <a href="#"><span class="ion ion-social-googleplus"><p class="share-label googleplus">Google+</p></span></a>
         </li>
         <li id="menu-item-66" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-66 ">
-          <a href="#">About</a>
+          <a href="#"><span class="ion ion-social-twitter"><p class="share-label twitter">Twitter</p></span></a>
         </li>
         <li id="menu-item-67" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-67 ">
-          <a href="#">News</a>
+          <a href="#"><span class="ion ion-social-pinterest"><p class="share-label pinterest">Pinterest</p></span></a>
         </li>
         <li id="menu-item-65" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-65 ">
-          <a href="#">Hello</a>
-        </li>
-        <li id="menu-item-69" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-69 ">
-          <a href="#">extras</a>
-          <ul class="sub-menu">
-            <li id="menu-item-70" class="menu-item menu-item-type-post_type menu-item-object-portfolio-items menu-item-70 ">
-              <a href="#">Project Info</a>
-            </li>
-            <li id="menu-item-72" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-72 ">
-              <a href="#">Home V2</a>
-            </li>
-            <li id="menu-item-71" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-71 ">
-              <a href="#">Home V3</a>
-            </li>
-          </ul>
+          <a href="#"><span class="ion ion-social-linkedin"><p class="share-label linkedin">LinkedIn</p></span></a>
         </li>
       </ul>
     </nav>
@@ -83,7 +97,7 @@
 ">NBC</a>, <a href="https://twitter.com/equinox">Equinox</a>, <a href="https://twitter.com/CapitalOne
 ">Capital One</a> & <a href="https://twitter.com/capitalonelabs">C1 Labs</a>.</h2>
               <div class="liner color-bg add-top-quarter"></div>
-              <!-- <p class="nav-link"><a class="active" href="#">Home</a> / <a href="#">About</a> / <a href="#">Works</a> / <a href="#">Blog</a> / <a href="#">Hello</a></p> -->
+              <p class="nav-link">View my work <a class="active" href="http://youngruffians.com/work">here</a> or check out my profile on <a class="active" href="http://behance.com/conordalton">Behance</a>. You can always <a class="active" href="mailto:conor@youngruffians.com">email</a> me.</p>
             </article>
           </div>
         </div>
@@ -94,15 +108,15 @@
   <footer class="mastfoot">
     <ul class="foot-social col-md-6 text-right">
       <li>
+        <a href="https://behance.com/conordalton" target="_blank">
+          <img class="social-behance" data-no-retina alt="" title="" src="v2/assets/icons/social/behance.png"/>
+        </a>
+      </li>
+      <li>
         <a href="http://instagram.com/conordaltonlive" target="_blank">
           <img class="social-instagram" data-no-retina alt="" title="" src="v2/assets/icons/social/instagram.png"/>
         </a>
       </li>
-      <!-- <li>
-        <a href="https://dribbble.com/conordaltonlive" target="_blank">
-          <img class="social-behance" data-no-retina alt="" title="" src="assets/icons/social/behance.png"/>
-        </a>
-      </li> -->
       <li>
         <a href="http://github.com/conordaltonlive" target="_blank">
           <img class="social-github" data-no-retina alt="" title="" src="v2/assets/icons/social/github.png"/>
@@ -120,7 +134,7 @@
       </li>
     </ul>
     <div class="credits">
-      <p class="font2 dark">Copyright © 2016 <a href="http://twitter.com/conordaltonlive">Conor Dalton</a> </p>
+      <p class="font2 dark">Copyright © 2016 <a href="http://twitter.com/conordaltonlive" target="_blank">Conor Dalton</a> </p>
     </div>
   </footer>
 
@@ -130,5 +144,15 @@
   <script type='text/javascript' src='v2/assets/js/gmap3-min.js'></script>
   <script type='text/javascript' src='http://maps.google.com/maps/api/js?sensor=false&#038;ver=4.4.2'></script>
   <script type="text/javascript">if(!NREUMQ.f){NREUMQ.f=function(){NREUMQ.push(["load",new Date().getTime()]);var e=document.createElement("script");e.type="text/javascript";e.src=(("http:"===document.location.protocol)?"http:":"https:")+"//"+"js-agent.newrelic.com/nr-100.js";document.body.appendChild(e);if(NREUMQ.a)NREUMQ.a();};NREUMQ.a=window.onload;window.onload=NREUMQ.f;};NREUMQ.push(["nrfj","bam.nr-data.net","3fffa76b5e","2986029","YAZaN0BWDUMHVUAICVlMeQBGXgxeSV5bDAMaFQk=",0,667,new Date().getTime(),"","","","",""]);</script>
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-57746605-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
 </body>
 </html>

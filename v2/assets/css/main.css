@@ -272,6 +272,9 @@ footer .credits p{
      -o-transition: all .8s linear;
       transition: all .8s linear;
 }
+.foot-social li a > img.social-behance {
+    margin-right: 11px;
+}
 .foot-social li a > img.social-instagram {
     margin-right: 15.5px;
 }
